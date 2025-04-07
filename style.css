@@ -172,3 +172,15 @@ footer {
         margin: 10px 0; 
     }
 }
+
+/* Adicionado para centralizar os banners */
+main a, body > a {
+    display: block;
+    text-align: center;
+    margin: 10px auto; /* Adiciona margem para espaçamento */
+}
+
+main a img, body > a img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
